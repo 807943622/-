@@ -1,0 +1,16 @@
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\spline.c
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\config.h
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\LCMDRV.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\FONT_MACRO.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\GUI_CONFIG.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\GUI_BASIC.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\GUI_STOCKC.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\FONT5_7.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\FONT8_8.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\FONT24_32.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\LOADBIT.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\WINDOWS.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\MENU.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\spline.H
+..\obj\spline.o: ..\HARDWARE\ZLG_GUI\ConvertColor.H
+..\obj\spline.o: D:\SoftWare\keil\ARM\ARMCC\Bin\..\include\math.h

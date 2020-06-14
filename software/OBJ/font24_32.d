@@ -1,0 +1,15 @@
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\FONT24_32.C
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\config.h
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\LCMDRV.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\FONT_MACRO.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\GUI_CONFIG.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\GUI_BASIC.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\GUI_STOCKC.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\FONT5_7.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\FONT8_8.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\FONT24_32.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\LOADBIT.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\WINDOWS.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\MENU.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\spline.H
+..\obj\font24_32.o: ..\HARDWARE\ZLG_GUI\ConvertColor.H

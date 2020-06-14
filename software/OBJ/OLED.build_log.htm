@@ -1,0 +1,214 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ray ray, ray, LIC=WHY30-B6IG3-KBEER-KK2D6-FN80F-5AAID
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  D:\SoftWare\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+F:\STM32\¸µÀïÒ¶ÆµÆ×ÒÇ\Code_Version1.0\USER\OLED.uvproj
+Project File Date:  01/28/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\SoftWare\keil\ARM\ARMCC\Bin'
+Rebuild target 'OLED'
+compiling system_stm32f4xx.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+system_stm32f4xx.c: 1 warning, 0 errors
+compiling stm32f4xx_it.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\device.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+stm32f4xx_it.c: 2 warnings, 0 errors
+compiling main.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\device.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(54): warning:  #177-D: variable "tempdata" was declared but never referenced
+  	double tempdata,humidata;	
+main.c(54): warning:  #177-D: variable "humidata" was declared but never referenced
+  	double tempdata,humidata;	
+main.c(248): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+  				if(position = strstr(&MQTT_CMDOutPtr[2],"PowerSwitch")) 
+main.c(248): warning:  #1293-D: assignment in condition
+  				if(position = strstr(&MQTT_CMDOutPtr[2],"PowerSwitch")) 
+main.c(252): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+  				if(position = strstr(&MQTT_CMDOutPtr[2],"PowerSwitch_2")) 
+main.c(252): warning:  #1293-D: assignment in condition
+  				if(position = strstr(&MQTT_CMDOutPtr[2],"PowerSwitch_2")) 
+main.c(256): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+  				if(position = strstr(&MQTT_CMDOutPtr[2],"PowerSwitch_3")) 
+main.c(256): warning:  #1293-D: assignment in condition
+  				if(position = strstr(&MQTT_CMDOutPtr[2],"PowerSwitch_3")) 
+main.c(67): warning:  #177-D: variable "i" was declared but never referenced
+  	int i;
+main.c(68): warning:  #177-D: variable "demow" was declared but never referenced
+  	WINDOWS demow;
+main.c: 12 warnings, 0 errors
+compiling led.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\LED\led.c: 1 warning, 0 errors
+compiling oled.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\OLED\oled.c: 1 warning, 0 errors
+compiling ld3320.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\LD3320\ld3320.c(663): warning:  #940-D: missing return statement at end of non-void function "LD_TEST"
+  }
+..\HARDWARE\LD3320\ld3320.c(778): warning:  #192-D: unrecognized character escape sequence
+  			printf("LD3320Ð¾Æ¬?Ú²¿³??Ö²??ý³££?Á¢¼´????LD3320Ð¾Æ¬\%d\r\n",00);
+..\HARDWARE\LD3320\ld3320.c: 3 warnings, 0 errors
+compiling spi.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\SPI\spi.c: 1 warning, 0 errors
+compiling mmc_sd.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\MMC_SD\mmc_sd.c: 1 warning, 0 errors
+compiling i2s.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\I2S\i2s.c(67): warning:  #177-D: variable "bw" was declared but never referenced
+  	u16 bw;
+..\HARDWARE\I2S\i2s.c(68): warning:  #177-D: variable "res" was declared but never referenced
+  	u8 res;
+..\HARDWARE\I2S\i2s.c: 3 warnings, 0 errors
+compiling delay.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\SYSTEM\delay\delay.c: 1 warning, 0 errors
+compiling sys.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\SYSTEM\sys\sys.c: 1 warning, 0 errors
+compiling timer.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\TIMER\timer.c(365): warning:  #177-D: variable "i" was declared but never referenced
+  		int i=0,Send_Count=0;
+..\HARDWARE\TIMER\timer.c(365): warning:  #177-D: variable "Send_Count" was declared but never referenced
+  		int i=0,Send_Count=0;
+..\HARDWARE\TIMER\timer.c: 3 warnings, 0 errors
+compiling wifi.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\ESP8266_WIFI\wifi.c: 1 warning, 0 errors
+compiling usart.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\SYSTEM\usart\usart.c: 1 warning, 0 errors
+compiling mqtt.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\ESP8266_WIFI\mqtt.c: 1 warning, 0 errors
+assembling cr4_fft_256_stm32.s...
+assembling cr4_fft_1024_stm32.s...
+compiling FFT.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\FFT_LIB\FFT.c(183): warning:  #177-D: variable "i" was declared but never referenced
+  	uint16_t i = 0;
+..\HARDWARE\FFT_LIB\FFT.c: 2 warnings, 0 errors
+compiling mycc936.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FATFS\exfuns\mycc936.c(31): warning:  #177-D: variable "t" was declared but never referenced
+  	WCHAR t[2];
+..\FATFS\exfuns\mycc936.c: 2 warnings, 0 errors
+compiling exfuns.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FATFS\exfuns\exfuns.c: 1 warning, 0 errors
+compiling DataScope_DP.C...
+compiling ff.c...
+compiling ConvertColor.c...
+compiling diskio.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FATFS\src\diskio.c: 1 warning, 0 errors
+compiling FONT8_8.C...
+compiling font5_7.c...
+compiling GUI_StockC.C...
+compiling FONT24_32.C...
+compiling GUI_BASIC.C...
+..\HARDWARE\ZLG_GUI\GUI_BASIC.C(1202): warning:  #111-D: statement is unreachable
+     GUI_HLine(x0_bak, y0_bak, x1_bak, color);
+..\HARDWARE\ZLG_GUI\GUI_BASIC.C: 1 warning, 0 errors
+compiling loadbit.c...
+compiling spline.c...
+compiling menu.c...
+compiling utils_hmac.c...
+compiling windows.c...
+compiling lcmdrv.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\HARDWARE\ZLG_GUI\lcmdrv.c: 1 warning, 0 errors
+compiling utils_md5.c...
+compiling utils_sha1.c...
+compiling misc.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FWLIB\src\misc.c: 1 warning, 0 errors
+compiling stm32f4xx_gpio.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FWLIB\src\stm32f4xx_gpio.c: 1 warning, 0 errors
+compiling stm32f4xx_rcc.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FWLIB\src\stm32f4xx_rcc.c: 1 warning, 0 errors
+compiling stm32f4xx_usart.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FWLIB\src\stm32f4xx_usart.c: 1 warning, 0 errors
+compiling stm32f4xx_syscfg.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FWLIB\src\stm32f4xx_syscfg.c: 1 warning, 0 errors
+compiling stm32f4xx_exti.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FWLIB\src\stm32f4xx_exti.c: 1 warning, 0 errors
+compiling stm32f4xx_spi.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FWLIB\src\stm32f4xx_spi.c: 1 warning, 0 errors
+compiling stm32f4xx_dma.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FWLIB\src\stm32f4xx_dma.c: 1 warning, 0 errors
+assembling startup_stm32f40_41xxx.s...
+compiling stm32f4xx_tim.c...
+..\CORE\core_cm4_simd.h(127): warning:  #47-D: incompatible redefinition of macro "__SMMLA" (declared at line 727 of "D:\SoftWare\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h")
+  #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
+..\FWLIB\src\stm32f4xx_tim.c: 1 warning, 0 errors
+linking...
+Program Size: Code=73026 RO-data=8766 RW-data=4336 ZI-data=23280  
+FromELF: creating hex file...
+"..\OBJ\OLED.axf" - 0 Error(s), 50 Warning(s).
+Build Time Elapsed:  00:00:44
+</pre>
+</body>
+</html>
